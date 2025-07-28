@@ -13,7 +13,9 @@ git clone https://github.com/fif3x/fifredo.git
 4. Go to the directory you wish to download the repositories, and run `fifredo` through the terminal
 5. Input the number linked to the repository you wish to download
 
-Pictures:
+Note: You can download a specific version by looking into the releases
+
+# Pictures
 Running FIFREDO in the  terminal inside a directory: <img width="409" height="136" alt="cmd_EUNEmClkGY" src="https://github.com/user-attachments/assets/fb433085-9910-4292-b5c8-632da762635e" />
 
 Directory after running command: <img width="345" height="30" alt="explorer_ufx9Q44SNX" src="https://github.com/user-attachments/assets/eae9032b-7067-465b-835b-8ad5f19fb1a2" />
