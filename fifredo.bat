@@ -10,9 +10,9 @@ echo 1. Libre Terminal       2. UCF
 echo 3. VSBF                 4. FSMS
 echo 5. FASF                 6. Azafx
 echo 7. Fifnect		         8. Fifredo (latest version)
-echo 9. vecf
+echo 9. vecf                 10. Fiftree
 echo.
-set /p option="Select an option (1‑9) or type exit to quit: "
+set /p option="Select an option (1‑10) or type exit to quit: "
 
 if /i "%option%"=="exit" (
     echo Exiting...
@@ -44,11 +44,15 @@ if /i "%option%"=="exit" (
 ) else if "%option%"=="9" (
     cls
     git clone https://github.com/fif3x/vecf.git
+) else if "%option%"=="9" (
+    cls
+    git clone https://github.com/fif3x/fiftree.git
 ) else (
     echo ERROR: Invalid input
 )
 
 pause
 goto menu
+
 
 
