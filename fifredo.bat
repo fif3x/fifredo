@@ -44,7 +44,7 @@ if /i "%option%"=="exit" (
 ) else if "%option%"=="9" (
     cls
     git clone https://github.com/fif3x/vecf.git
-) else if "%option%"=="9" (
+) else if "%option%"=="10" (
     cls
     git clone https://github.com/fif3x/fiftree.git
 ) else (
@@ -53,6 +53,7 @@ if /i "%option%"=="exit" (
 
 pause
 goto menu
+
 
 
 
