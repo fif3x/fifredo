@@ -1,17 +1,18 @@
 @echo off
-title FIFREDO – Fifex's Repositories Downloader (v3D)
+title FIFREDO – Fifex's Repositories Downloader (v22.1)
 
 :menu
 cls
-echo FIFREDO - Fifex's Repositories Downloader (v3D)
+echo FIFREDO - Fifex's Repositories Downloader (v22.1)
 echo.
 echo List of repos:
 echo 1. Libre Terminal       2. UCF
 echo 3. VSBF                 4. FSMS
 echo 5. FASF                 6. Azafx
-echo 7. Fifnect		     8. Fifredo (latest version)
+echo 7. Fifnect		         8. Fifredo (latest version)
+echo 9. vecf
 echo.
-set /p option="Select an option (1‑7) or type exit to quit: "
+set /p option="Select an option (1‑9) or type exit to quit: "
 
 if /i "%option%"=="exit" (
     echo Exiting...
@@ -40,10 +41,14 @@ if /i "%option%"=="exit" (
 ) else if "%option%"=="8" (
     cls
     git clone https://github.com/fif3x/fifredo.git
+) else if "%option%"=="9" (
+    cls
+    git clone https://github.com/fif3x/vecf.git
 ) else (
     echo ERROR: Invalid input
 )
 
 pause
 goto menu
+
 
