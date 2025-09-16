@@ -1,6 +1,6 @@
 # FIFREDO
 
-FIFREDO stands for FIFex's REpositories DOwnloader, and is a software that allows you to download my repositories\
+FIFREDO stands for FIFex's REpositories DOwnloader, and is a software that allows you to download my repositories for Windows (Currently)
 
 # How to download and use
 
